@@ -10,7 +10,7 @@ const Content = () => {
             <main className="content">
                 {statusList.map((status: Status) => {
                     return (
-                        <div className="status-section">
+                        <div className="status-section" key={status.id}>
                             <div className="status-title-wrapper">
                                 <p className="status-title">{status.name}</p>
                             </div>
@@ -18,7 +18,10 @@ const Content = () => {
                                 {status.items.length > 0
                                     ? status.items.map((item) => {
                                           return (
-                                              <div className="status-card">
+                                              <div
+                                                  className="status-card"
+                                                  key={item.id}
+                                              >
                                                   <div className="card-header">
                                                       <p className="card-title">
                                                           {item.title}
