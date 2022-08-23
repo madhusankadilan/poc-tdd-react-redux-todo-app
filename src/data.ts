@@ -1,4 +1,4 @@
-export type Task = {
+export type ITask = {
     id: string;
     title: string;
     description: string;
@@ -6,12 +6,12 @@ export type Task = {
     createdBy: string;
 };
 
-export type Status = {
+export type IStatus = {
     id: string;
     name: string;
-    items: Task[];
+    items: ITask[];
 };
 
-export type StatusList = Status[];
+export type StatusList = IStatus[];
 
 export const status: StatusList = [];

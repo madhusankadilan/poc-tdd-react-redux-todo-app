@@ -1,6 +1,6 @@
 import React from "react";
-import ToDoContent from "../Content";
-import ToDoSideBar from "../SideBar";
+import ToDoContent from "../../components-content";
+import ToDoSideBar from "../../components-sidebar";
 
 const ToDoWrapper = () => {
     return (
