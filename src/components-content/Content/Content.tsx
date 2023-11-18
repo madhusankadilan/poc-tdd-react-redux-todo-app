@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { IStatus, status, StatusList } from "../../data";
 import Status from "../Status";
 import "./styles.css";
 
 const Content = () => {
-    const [statusList, setStatusList] = useState<StatusList>(status);
+    const [statusList] = useState<StatusList>(status);
 
     if (statusList.length > 0) {
         return (

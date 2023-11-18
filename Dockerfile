@@ -4,7 +4,7 @@ FROM node
 #ENV
 RUN mkdir -p /home/app
 WORKDIR /home/app
-COPY ./ /home/app
+COPY cra /home/app
 RUN npm install
 
 # Set up a default command

@@ -1,9 +1,8 @@
-import React from "react";
 import ToDoWrapper from "./components-container";
-import "./app.css";
+import './App.css'
 
 function App() {
     return <ToDoWrapper />;
 }
 
-export default App;
+export default App

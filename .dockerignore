@@ -1,5 +1,5 @@
 node_modules
 build
 .devcontainer
-ui
-README.md
+../ui
+cra/README.md

@@ -1,4 +1,3 @@
-import React from "react";
 import { IStatus } from "../../data";
 import Item from "../Item";
 
