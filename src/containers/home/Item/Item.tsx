@@ -1,4 +1,4 @@
-import { ITask } from "../../data";
+import { ITask } from "../../../data.ts";
 
 type Props = {
     item: ITask;
