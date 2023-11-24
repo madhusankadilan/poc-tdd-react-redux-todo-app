@@ -1,5 +1,5 @@
-import { IStatus } from "../../data";
-import Item from "../Item";
+import { IStatus } from "../../../data.ts";
+import Item from "../Item/index.ts";
 
 type Props = {
     status: IStatus;

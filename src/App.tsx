@@ -1,8 +1,10 @@
-import ToDoWrapper from "./components-container";
-import './App.css'
+import './App.css';
+import Home from "./pages/Home";
 
 function App() {
-    return <ToDoWrapper />;
+    return (
+        <Home />
+    );
 }
 
 export default App
