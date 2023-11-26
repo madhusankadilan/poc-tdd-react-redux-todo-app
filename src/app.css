@@ -7,12 +7,9 @@ body {
   display: flex;
 }
 
-.basic-title {
-  font-family: "Karla";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 48px;
-  line-height: 56px;
-  text-align: center;
-  color: #000000;
+.home {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
 }
