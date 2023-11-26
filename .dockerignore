@@ -3,3 +3,6 @@ build
 .devcontainer
 ../ui
 cra/README.md
+.storybook
+.idea
+ui

@@ -1,18 +1,10 @@
-# Specify a base image
-FROM node
+FROM node:18-alpine3.17 as build
+WORKDIR /usr/app
+COPY . /usr/app
+RUN npm ci
+RUN npm run build
 
-#ENV
-RUN mkdir -p /home/app
-WORKDIR /home/app
-COPY cra /home/app
-RUN npm install
-
-# Set up a default command
-CMD ["npm", "start"]
-
-
-# BUILD the docker image
-    # docker build -t <name:tag> <Dockerfile path>   => docker build -t react-app .
-
-#RUN
-    # docker run -p<host:docker> <imageId>
+FROM nginx:1.24.0-alpine
+EXPOSE 80
+COPY ./docker/nginx/conf/default.conf /etc/nginx/conf.d/default.conf
+COPY --from=build /usr/app/dist /usr/share/nginx/html
