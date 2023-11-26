@@ -1,35 +1,34 @@
-import { ChangeEvent, useState } from "react";
 import "./styles.css";
 
 const SideBar = () => {
-    const [todo, setTodo] = useState({
-        title: "",
-        description: "",
-    });
+    // const [, setTodo] = useState({
+    //     title: "",
+    //     description: "",
+    // });
 
-    const handleTitleChange = (ev: ChangeEvent<HTMLInputElement>) => {
-        setTodo((prevState) => ({
-            ...prevState,
-            title: ev.target.value,
-        }));
-    };
+    // const handleTitleChange = (ev: ChangeEvent<HTMLInputElement>) => {
+    //     setTodo((prevState) => ({
+    //         ...prevState,
+    //         title: ev.target.value,
+    //     }));
+    // };
 
-    const handleDescriptionChange = (ev: ChangeEvent<HTMLTextAreaElement>) => {
-        setTodo((prevState) => ({
-            ...prevState,
-            description: ev.target.value,
-        }));
-    };
+    // const handleDescriptionChange = (ev: ChangeEvent<HTMLTextAreaElement>) => {
+    //     setTodo((prevState) => ({
+    //         ...prevState,
+    //         description: ev.target.value,
+    //     }));
+    // };
 
-    const handleAddTodo = () => {};
+    // const handleAddTodo = () => {};
 
-    const isDisabled = () => {
-        if (todo.title && todo.description) {
-            return false;
-        }
+    // const isDisabled = () => {
+    //     if (todo.title && todo.description) {
+    //         return false;
+    //     }
 
-        return true;
-    };
+    //     return true;
+    // };
 
     return (
         <aside className="sidebar">
