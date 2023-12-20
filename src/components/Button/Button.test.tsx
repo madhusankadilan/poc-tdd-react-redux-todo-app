@@ -1,9 +1,9 @@
-import { render, screen } from "../../utils//test-utils";
+import { render, screen, renderer } from "../../utils//test-utils";
 import Button from './Button';
 import { Color, Size, Variant } from "./Button.types";
 
 describe('BUTTON', () => {
-   describe('Component Rendering', () => {
+   describe('Component Rendering and Props Handling', () => {
       test('renders the button text correctly', () => {
          render(<Button>Click me</Button>);
          const button = screen.getByText('Click me');
@@ -53,11 +53,41 @@ describe('BUTTON', () => {
       });
    });
 
-   describe('Component Interactions', () => {
+   // Test interactions within component (testing event handlers, state changes, and component updates triggered by user interactions)
+   describe('Component Interactions and State Management', () => {
       test('test', () => {
 
       });
 
+      test('test', () => {
+
+      })
+   });
+
+   describe('Component Error Handling', () => {
+      test('test', () => {
+
+      })
+   });
+
+   describe('Snapshot Testing', () => {
+      const supportedSizes: Size[] = ['small', 'medium', 'large'];
+      const supportedVariants: Variant[] = ['contained', 'outlined', 'text'];
+      const supportedColors: Color[] = ['primary', 'secondary', 'success', 'info', 'warning', 'error'];
+
+      for (const color of supportedColors) {
+         for (const variant of supportedVariants) {
+            for (const size of supportedSizes) {
+               test(`Snapshot Testing - ${color}, ${variant}, ${size}`, () => {
+                  const tree = renderer.create(<Button size={size} color={color} variant={variant}>Click me</Button>).toJSON();
+                  expect(tree).toMatchSnapshot();
+               });
+            }
+         }
+      }
+   });
+
+   describe('Integration Testing', () => {
       test('test', () => {
 
       })
