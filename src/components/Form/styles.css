@@ -1,0 +1,66 @@
+.dc-form {
+   display: flex;
+}
+
+.dc-form-vertical {
+   flex-direction: column;
+}
+
+.dc-form-horizontal {
+   flex-direction: column;
+}
+
+.dc-form-inline {
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+
+.dc-form-horizontal.dc-form-label-wrapper-col-1 .dc-label-wrapper {
+   flex-basis: calc(100% / 10);
+   flex-grow: 1;
+}
+
+.dc-form-horizontal.dc-form-label-wrapper-col-2 .dc-label-wrapper {
+   flex-basis: calc(100% / 10);
+   flex-grow: 2;
+}
+
+.dc-form-horizontal.dc-form-label-wrapper-col-3 .dc-label-wrapper {
+   flex-basis: calc(100% / 10);
+   flex-grow: 3;
+}
+
+.dc-form-horizontal.dc-form-label-wrapper-col-4 .dc-label-wrapper {
+   flex-basis: calc(100% / 10);
+   flex-grow: 4;
+}
+
+.dc-form-horizontal.dc-form-label-wrapper-col-5 .dc-label-wrapper {
+   flex-basis: calc(100% / 10);
+   flex-grow: 5;
+}
+
+.dc-form-horizontal.dc-form-input-wrapper-col-5 .dc-input-wrapper {
+   flex-basis: calc(100% / 10);
+   flex-grow: 5;
+}
+
+.dc-form-horizontal.dc-form-input-wrapper-col-6 .dc-input-wrapper {
+   flex-basis: calc(100% / 10);
+   flex-grow: 6;
+}
+
+.dc-form-horizontal.dc-form-input-wrapper-col-7 .dc-input-wrapper {
+   flex-basis: calc(100% / 10);
+   flex-grow: 7;
+}
+
+.dc-form-horizontal.dc-form-input-wrapper-col-8 .dc-input-wrapper {
+   flex-basis: calc(100% / 10);
+   flex-grow: 8;
+}
+
+.dc-form-horizontal.dc-form-input-wrapper-col-9 .dc-input-wrapper {
+   flex-basis: calc(100% / 10);
+   flex-grow: 9;
+}
