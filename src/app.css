@@ -5,11 +5,10 @@ body {
 #root {
   min-height: 100vh;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .home {
-  display: flex;
-  flex-grow: 1;
-  align-items: center;
-  justify-content: center;
+  flex: 0 0 50%;
 }

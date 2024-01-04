@@ -1,0 +1,811 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - error, filled, large 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-filled-error dc-input-large"
+      id=":r1f:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - error, filled, medium 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-filled-error dc-input-medium"
+      id=":r1e:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - error, filled, small 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-filled-error dc-input-small"
+      id=":r1d:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - error, outlined, large 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-outlined-error dc-input-large"
+      id=":r1i:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - error, outlined, medium 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-outlined-error dc-input-medium"
+      id=":r1h:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - error, outlined, small 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-outlined-error dc-input-small"
+      id=":r1g:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - error, standard, large 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-standard-error dc-input-large"
+      id=":r1l:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - error, standard, medium 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-standard-error dc-input-medium"
+      id=":r1k:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - error, standard, small 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-standard-error dc-input-small"
+      id=":r1j:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - info, filled, large 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-filled-info dc-input-large"
+      id=":rt:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - info, filled, medium 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-filled-info dc-input-medium"
+      id=":rs:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - info, filled, small 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-filled-info dc-input-small"
+      id=":rr:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - info, outlined, large 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-outlined-info dc-input-large"
+      id=":r10:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - info, outlined, medium 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-outlined-info dc-input-medium"
+      id=":rv:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - info, outlined, small 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-outlined-info dc-input-small"
+      id=":ru:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - info, standard, large 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-standard-info dc-input-large"
+      id=":r13:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - info, standard, medium 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-standard-info dc-input-medium"
+      id=":r12:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - info, standard, small 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-standard-info dc-input-small"
+      id=":r11:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - primary, filled, large 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-filled-primary dc-input-large"
+      id=":r2:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - primary, filled, medium 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-filled-primary dc-input-medium"
+      id=":r1:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - primary, filled, small 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-filled-primary dc-input-small"
+      id=":r0:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - primary, outlined, large 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-outlined-primary dc-input-large"
+      id=":r5:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - primary, outlined, medium 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-outlined-primary dc-input-medium"
+      id=":r4:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - primary, outlined, small 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-outlined-primary dc-input-small"
+      id=":r3:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - primary, standard, large 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-standard-primary dc-input-large"
+      id=":r8:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - primary, standard, medium 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-standard-primary dc-input-medium"
+      id=":r7:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - primary, standard, small 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-standard-primary dc-input-small"
+      id=":r6:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - secondary, filled, large 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-filled-secondary dc-input-large"
+      id=":rb:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - secondary, filled, medium 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-filled-secondary dc-input-medium"
+      id=":ra:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - secondary, filled, small 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-filled-secondary dc-input-small"
+      id=":r9:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - secondary, outlined, large 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-outlined-secondary dc-input-large"
+      id=":re:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - secondary, outlined, medium 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-outlined-secondary dc-input-medium"
+      id=":rd:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - secondary, outlined, small 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-outlined-secondary dc-input-small"
+      id=":rc:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - secondary, standard, large 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-standard-secondary dc-input-large"
+      id=":rh:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - secondary, standard, medium 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-standard-secondary dc-input-medium"
+      id=":rg:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - secondary, standard, small 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-standard-secondary dc-input-small"
+      id=":rf:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - success, filled, large 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-filled-success dc-input-large"
+      id=":rk:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - success, filled, medium 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-filled-success dc-input-medium"
+      id=":rj:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - success, filled, small 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-filled-success dc-input-small"
+      id=":ri:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - success, outlined, large 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-outlined-success dc-input-large"
+      id=":rn:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - success, outlined, medium 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-outlined-success dc-input-medium"
+      id=":rm:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - success, outlined, small 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-outlined-success dc-input-small"
+      id=":rl:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - success, standard, large 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-standard-success dc-input-large"
+      id=":rq:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - success, standard, medium 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-standard-success dc-input-medium"
+      id=":rp:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - success, standard, small 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-standard-success dc-input-small"
+      id=":ro:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - warning, filled, large 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-filled-warning dc-input-large"
+      id=":r16:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - warning, filled, medium 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-filled-warning dc-input-medium"
+      id=":r15:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - warning, filled, small 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-filled-warning dc-input-small"
+      id=":r14:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - warning, outlined, large 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-outlined-warning dc-input-large"
+      id=":r19:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - warning, outlined, medium 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-outlined-warning dc-input-medium"
+      id=":r18:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - warning, outlined, small 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-outlined-warning dc-input-small"
+      id=":r17:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - warning, standard, large 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-standard-warning dc-input-large"
+      id=":r1c:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - warning, standard, medium 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-standard-warning dc-input-medium"
+      id=":r1b:"
+    />
+  </div>
+</div>
+`;
+
+exports[`INPUT > Snapshot Testing > Snapshot Testing - warning, standard, small 1`] = `
+<div
+  className="dc-wrapper"
+>
+  <div
+    className="dc-input-wrapper"
+  >
+    <input
+      className="dc-input dc-input-standard-warning dc-input-small"
+      id=":r1a:"
+    />
+  </div>
+</div>
+`;
