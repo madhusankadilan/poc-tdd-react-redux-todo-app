@@ -1,0 +1,577 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - error, contained, large 1`] = `
+<button
+  className="dc-button dc-button-contained-error dc-button-large"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - error, contained, medium 1`] = `
+<button
+  className="dc-button dc-button-contained-error dc-button-medium"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - error, contained, small 1`] = `
+<button
+  className="dc-button dc-button-contained-error dc-button-small"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - error, contained, smalll 1`] = `
+<button
+  className="dc-button dc-button-contained-error dc-button-smalll"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - error, outlined, large 1`] = `
+<button
+  className="dc-button dc-button-outlined-error dc-button-large"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - error, outlined, medium 1`] = `
+<button
+  className="dc-button dc-button-outlined-error dc-button-medium"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - error, outlined, small 1`] = `
+<button
+  className="dc-button dc-button-outlined-error dc-button-small"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - error, outlined, smalll 1`] = `
+<button
+  className="dc-button dc-button-outlined-error dc-button-smalll"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - error, text, large 1`] = `
+<button
+  className="dc-button dc-button-text-error dc-button-large"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - error, text, medium 1`] = `
+<button
+  className="dc-button dc-button-text-error dc-button-medium"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - error, text, small 1`] = `
+<button
+  className="dc-button dc-button-text-error dc-button-small"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - error, text, smalll 1`] = `
+<button
+  className="dc-button dc-button-text-error dc-button-smalll"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - info, contained, large 1`] = `
+<button
+  className="dc-button dc-button-contained-info dc-button-large"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - info, contained, medium 1`] = `
+<button
+  className="dc-button dc-button-contained-info dc-button-medium"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - info, contained, small 1`] = `
+<button
+  className="dc-button dc-button-contained-info dc-button-small"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - info, contained, smalll 1`] = `
+<button
+  className="dc-button dc-button-contained-info dc-button-smalll"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - info, outlined, large 1`] = `
+<button
+  className="dc-button dc-button-outlined-info dc-button-large"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - info, outlined, medium 1`] = `
+<button
+  className="dc-button dc-button-outlined-info dc-button-medium"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - info, outlined, small 1`] = `
+<button
+  className="dc-button dc-button-outlined-info dc-button-small"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - info, outlined, smalll 1`] = `
+<button
+  className="dc-button dc-button-outlined-info dc-button-smalll"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - info, text, large 1`] = `
+<button
+  className="dc-button dc-button-text-info dc-button-large"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - info, text, medium 1`] = `
+<button
+  className="dc-button dc-button-text-info dc-button-medium"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - info, text, small 1`] = `
+<button
+  className="dc-button dc-button-text-info dc-button-small"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - info, text, smalll 1`] = `
+<button
+  className="dc-button dc-button-text-info dc-button-smalll"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - primary, contained, large 1`] = `
+<button
+  className="dc-button dc-button-contained-primary dc-button-large"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - primary, contained, medium 1`] = `
+<button
+  className="dc-button dc-button-contained-primary dc-button-medium"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - primary, contained, small 1`] = `
+<button
+  className="dc-button dc-button-contained-primary dc-button-small"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - primary, contained, smalll 1`] = `
+<button
+  className="dc-button dc-button-contained-primary dc-button-smalll"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - primary, outlined, large 1`] = `
+<button
+  className="dc-button dc-button-outlined-primary dc-button-large"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - primary, outlined, medium 1`] = `
+<button
+  className="dc-button dc-button-outlined-primary dc-button-medium"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - primary, outlined, small 1`] = `
+<button
+  className="dc-button dc-button-outlined-primary dc-button-small"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - primary, outlined, smalll 1`] = `
+<button
+  className="dc-button dc-button-outlined-primary dc-button-smalll"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - primary, text, large 1`] = `
+<button
+  className="dc-button dc-button-text-primary dc-button-large"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - primary, text, medium 1`] = `
+<button
+  className="dc-button dc-button-text-primary dc-button-medium"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - primary, text, small 1`] = `
+<button
+  className="dc-button dc-button-text-primary dc-button-small"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - primary, text, smalll 1`] = `
+<button
+  className="dc-button dc-button-text-primary dc-button-smalll"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - secondary, contained, large 1`] = `
+<button
+  className="dc-button dc-button-contained-secondary dc-button-large"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - secondary, contained, medium 1`] = `
+<button
+  className="dc-button dc-button-contained-secondary dc-button-medium"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - secondary, contained, small 1`] = `
+<button
+  className="dc-button dc-button-contained-secondary dc-button-small"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - secondary, contained, smalll 1`] = `
+<button
+  className="dc-button dc-button-contained-secondary dc-button-smalll"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - secondary, outlined, large 1`] = `
+<button
+  className="dc-button dc-button-outlined-secondary dc-button-large"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - secondary, outlined, medium 1`] = `
+<button
+  className="dc-button dc-button-outlined-secondary dc-button-medium"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - secondary, outlined, small 1`] = `
+<button
+  className="dc-button dc-button-outlined-secondary dc-button-small"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - secondary, outlined, smalll 1`] = `
+<button
+  className="dc-button dc-button-outlined-secondary dc-button-smalll"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - secondary, text, large 1`] = `
+<button
+  className="dc-button dc-button-text-secondary dc-button-large"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - secondary, text, medium 1`] = `
+<button
+  className="dc-button dc-button-text-secondary dc-button-medium"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - secondary, text, small 1`] = `
+<button
+  className="dc-button dc-button-text-secondary dc-button-small"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - secondary, text, smalll 1`] = `
+<button
+  className="dc-button dc-button-text-secondary dc-button-smalll"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - success, contained, large 1`] = `
+<button
+  className="dc-button dc-button-contained-success dc-button-large"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - success, contained, medium 1`] = `
+<button
+  className="dc-button dc-button-contained-success dc-button-medium"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - success, contained, small 1`] = `
+<button
+  className="dc-button dc-button-contained-success dc-button-small"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - success, contained, smalll 1`] = `
+<button
+  className="dc-button dc-button-contained-success dc-button-smalll"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - success, outlined, large 1`] = `
+<button
+  className="dc-button dc-button-outlined-success dc-button-large"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - success, outlined, medium 1`] = `
+<button
+  className="dc-button dc-button-outlined-success dc-button-medium"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - success, outlined, small 1`] = `
+<button
+  className="dc-button dc-button-outlined-success dc-button-small"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - success, outlined, smalll 1`] = `
+<button
+  className="dc-button dc-button-outlined-success dc-button-smalll"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - success, text, large 1`] = `
+<button
+  className="dc-button dc-button-text-success dc-button-large"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - success, text, medium 1`] = `
+<button
+  className="dc-button dc-button-text-success dc-button-medium"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - success, text, small 1`] = `
+<button
+  className="dc-button dc-button-text-success dc-button-small"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - success, text, smalll 1`] = `
+<button
+  className="dc-button dc-button-text-success dc-button-smalll"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - warning, contained, large 1`] = `
+<button
+  className="dc-button dc-button-contained-warning dc-button-large"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - warning, contained, medium 1`] = `
+<button
+  className="dc-button dc-button-contained-warning dc-button-medium"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - warning, contained, small 1`] = `
+<button
+  className="dc-button dc-button-contained-warning dc-button-small"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - warning, contained, smalll 1`] = `
+<button
+  className="dc-button dc-button-contained-warning dc-button-smalll"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - warning, outlined, large 1`] = `
+<button
+  className="dc-button dc-button-outlined-warning dc-button-large"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - warning, outlined, medium 1`] = `
+<button
+  className="dc-button dc-button-outlined-warning dc-button-medium"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - warning, outlined, small 1`] = `
+<button
+  className="dc-button dc-button-outlined-warning dc-button-small"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - warning, outlined, smalll 1`] = `
+<button
+  className="dc-button dc-button-outlined-warning dc-button-smalll"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - warning, text, large 1`] = `
+<button
+  className="dc-button dc-button-text-warning dc-button-large"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - warning, text, medium 1`] = `
+<button
+  className="dc-button dc-button-text-warning dc-button-medium"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - warning, text, small 1`] = `
+<button
+  className="dc-button dc-button-text-warning dc-button-small"
+>
+  Click me
+</button>
+`;
+
+exports[`BUTTON > Snapshot Testing > Snapshot Testing - warning, text, smalll 1`] = `
+<button
+  className="dc-button dc-button-text-warning dc-button-smalll"
+>
+  Click me
+</button>
+`;

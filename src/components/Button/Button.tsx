@@ -1,11 +1,12 @@
-import { ReactNode } from "react";
+import { ComponentPropsWithoutRef, ReactNode } from "react";
 import { getClassNames } from "../../utils";
 import "./styles.css";
+import { Color, Size, Variant } from "./Button.types";
 
-type Props = {
-   color?: 'primary' | 'secondary' | 'success' | 'info' | 'warning' | 'error';
-   variant?: 'contained' | 'outlined'| 'text';
-   size?: 'small' | 'medium' | 'large';
+type Props = ComponentPropsWithoutRef<"button"> & {
+   color?: Color;
+   variant?: Variant;
+   size?: Size;
    className?: string;
    children: ReactNode;
 };
