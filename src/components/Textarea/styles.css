@@ -1,0 +1,414 @@
+.dc-wrapper {
+   display: flex;
+   flex-direction: column;
+}
+
+.dc-label-wrapper {
+   display: flex;
+   align-items: center;
+}
+
+.dc-textarea-wrapper {
+   display: flex;
+   margin-top: 0.75rem;
+}
+
+.dc-form .dc-textarea-wrapper {
+   margin-top: 0;
+}
+
+.dc-form-vertical > * + * {
+   margin-top: 0.75rem;
+}
+
+.dc-form-horizontal > * + * {
+   margin-top: 0.75rem;
+}
+
+.dc-form-horizontal .dc-wrapper {
+   flex-direction: row;
+}
+
+.dc-form-vertical .dc-wrapper {
+   flex-direction: column;
+}
+
+.dc-form-inline .dc-wrapper {
+   flex-direction: row;
+}
+
+.dc-form-horizontal .dc-label-wrapper {
+   margin-right: 1rem;
+}
+
+.dc-form-inline .dc-label-wrapper {
+   margin-right: 1rem;
+}
+
+.dc-form-inline .dc-textarea-wrapper {
+   margin-right: 1rem;
+}
+
+.dc-label {
+   display: inline-block;
+   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+   font-weight: 400;
+   line-height: 1.5;
+   text-decoration: none;
+}
+
+.dc-textarea {
+   display: inline-block;
+   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+   font-weight: 400;
+   line-height: 1.5;
+   text-decoration: none;
+   vertical-align: middle;
+}
+
+.dc-form-horizontal .dc-label,
+.dc-form-horizontal .dc-textarea,
+.dc-form-vertical .dc-label,
+.dc-form-vertical .dc-textarea {
+   display: flex;
+   flex-grow: 1;
+}
+
+.dc-textarea-filled-primary {
+   color: white;
+   background-color: #1976d2;
+   border: 1px solid #1565c0;
+}
+
+.dc-textarea-filled-primary:hover {
+   color: white;
+   background-color: rgb(21, 101, 192);
+   box-shadow: 0 0 0 1px rgba(21, 101, 192, 0.102);
+}
+
+.dc-textarea-filled-primary:focus {
+   color: white;
+   background-color: #1565c0;
+   box-shadow: 0 0 0 2px rgba(21, 101, 192, 0.2);
+   outline: none;
+}
+
+.dc-textarea-outlined-primary {
+   background-color: transparent;
+   border: 1px solid #1976d2;
+}
+
+.dc-textarea-outlined-primary:hover {
+   border: 1px solid #1565c0;
+   box-shadow: 0 0 0 1px rgba(21, 101, 192, 0.102);
+}
+
+.dc-textarea-outlined-primary:focus {
+   border: 1px solid #1565c0;
+   box-shadow: 0 0 0 2px rgba(21, 101, 192, 0.2);
+   outline: none;
+}
+
+.dc-textarea-standard-primary {
+   color: #1976d2;
+   background-color: transparent;
+   border: none;
+}
+
+.dc-textarea-standard-primary:hover {
+   color: #1565c0;
+   background-color: #f0f7fd;
+   border: none;
+}
+
+.dc-textarea-standard-primary:focus {
+   color: #1565c0;
+   background-color: #f0f7fd;
+   border: none;
+   outline: none;
+}
+
+.dc-textarea-filled-secondary {
+   color: white;
+   background-color: #9c27b0;
+   border: 1px solid #7b1fa2;
+}
+
+.dc-textarea-filled-secondary:hover {
+   color: white;
+   background-color: rgb(123, 31, 162);
+   box-shadow: 0 0 0 1px rgba(123, 31, 162, 0.102);
+}
+
+.dc-textarea-filled-secondary:focus {
+   color: white;
+   background-color: rgb(123, 31, 162);
+   box-shadow: 0 0 0 1px rgba(123, 31, 162, 0.102);
+   outline: none;
+}
+
+.dc-textarea-outlined-secondary {
+   background-color: transparent;
+   border: 1px solid #9c27b0;
+}
+
+.dc-textarea-outlined-secondary:hover {
+   border: 1px solid rgb(123, 31, 162);
+   box-shadow: 0 0 0 1px rgba(123, 31, 162, 0.102);
+}
+
+.dc-textarea-outlined-secondary:focus {
+   border: 1px solid rgb(123, 31, 162);
+   box-shadow: 0 0 0 1px rgba(123, 31, 162, 0.102);
+   outline: none;
+}
+
+.dc-textarea-standard-secondary {
+   color: #9c27b0;
+   background-color: transparent;
+   border: none;
+}
+
+.dc-textarea-standard-secondary:hover {
+   color: #7b1fa2;
+   background-color: #faf0fc;
+   border: none;
+}
+
+.dc-textarea-standard-secondary:focus {
+   color: #7b1fa2;
+   background-color: #faf0fc;
+   border: none;
+   outline: none;
+}
+
+.dc-textarea-filled-success {
+   color: white;
+   background-color: #2e7d32;
+   border: 1px solid #1b5e20;
+}
+
+.dc-textarea-filled-success:hover {
+   color: white;
+   background-color: rgb(27, 94, 32);
+   box-shadow: 0 0 0 1px rgba(27, 94, 32, 0.102);
+}
+
+.dc-textarea-filled-success:focus {
+   color: white;
+   background-color: rgb(27, 94, 32);
+   box-shadow: 0 0 0 1px rgba(27, 94, 32, 0.102);
+   outline: none;
+}
+
+.dc-textarea-outlined-success {
+   background-color: transparent;
+   border: 1px solid #2e7d32;
+}
+
+.dc-textarea-outlined-success:hover {
+   border: 1px solid rgb(27, 94, 32);
+   box-shadow: 0 0 0 1px rgba(27, 94, 32, 0.102);
+}
+
+.dc-textarea-outlined-success:focus {
+   border: 1px solid rgb(27, 94, 32);
+   box-shadow: 0 0 0 1px rgba(27, 94, 32, 0.102);
+   outline: none;
+}
+
+.dc-textarea-standard-success {
+   color: #2e7d32;
+   background-color: transparent;
+   border: none;
+}
+
+.dc-textarea-standard-success:hover {
+   color: #1b5e20;
+   background-color: #f0faf1;
+   border: none;
+}
+
+.dc-textarea-standard-success:focus {
+   color: #1b5e20;
+   background-color: #f0faf1;
+   border: none;
+   outline: none;
+}
+
+.dc-textarea-filled-info {
+   color: white;
+   background-color: #0288d1;
+   border: 1px solid #01579b;
+}
+
+.dc-textarea-filled-info:hover {
+   color: white;
+   background-color: rgb(1, 87, 155);
+   box-shadow: 0 0 0 1px rgba(1, 87, 155, 0.102);
+}
+
+.dc-textarea-filled-info:focus {
+   color: white;
+   background-color: rgb(1, 87, 155);
+   box-shadow: 0 0 0 1px rgba(1, 87, 155, 0.102);
+   outline: none;
+}
+
+.dc-textarea-outlined-info {
+   background-color: transparent;
+   border: 1px solid #0288d1;
+}
+
+.dc-textarea-outlined-info:hover {
+   border: 1px solid #01579b;
+   box-shadow: 0 0 0 1px rgba(1, 87, 155, 0.102);
+}
+
+.dc-textarea-outlined-info:focus {
+   border: 1px solid #01579b;
+   box-shadow: 0 0 0 1px rgba(1, 87, 155, 0.102);
+   outline: none;
+}
+
+.dc-textarea-standard-info {
+   color: #0288d1;
+   background-color: transparent;
+   border: none;
+}
+
+.dc-textarea-standard-info:hover {
+   color: #01579b;
+   background-color: #edf9ff;
+   border: none;
+}
+
+.dc-textarea-standard-info:focus {
+   color: #01579b;
+   background-color: #edf9ff;
+   border: none;
+   outline: none;
+}
+
+.dc-textarea-filled-warning {
+   color: white;
+   background-color: #ed6c02;
+   border: 1px solid #e65100;
+}
+
+.dc-textarea-filled-warning:hover {
+   color: white;
+   background-color: rgb(230, 81, 0);
+   box-shadow: 0 0 0 1px rgba(230, 81, 0, 0.102);
+}
+
+.dc-textarea-filled-warning:focus {
+   color: white;
+   background-color: rgb(230, 81, 0);
+   box-shadow: 0 0 0 1px rgba(230, 81, 0, 0.102);
+   outline: none;
+}
+
+.dc-textarea-outlined-warning {
+   background-color: transparent;
+   border: 1px solid #ed6c02;
+}
+
+.dc-textarea-outlined-warning:hover {
+   border: 1px solid #e65100;
+   box-shadow: 0 0 0 1px rgba(230, 81, 0, 0.102);
+}
+
+.dc-textarea-outlined-warning:focus {
+   border: 1px solid #e65100;
+   box-shadow: 0 0 0 1px rgba(230, 81, 0, 0.102);
+   outline: none;
+}
+
+.dc-textarea-standard-warning {
+   color: #ed6c02;
+   background-color: transparent;
+   border: none;
+}
+
+.dc-textarea-standard-warning:hover {
+   color: #e65100;
+   background-color: #fff6ef;
+   border: none;
+}
+
+.dc-textarea-standard-warning:focus {
+   color: #e65100;
+   background-color: #fff6ef;
+   border: none;
+   outline: none;
+}
+
+.dc-textarea-filled-error {
+   color: white;
+   background-color: #d32f2f;
+   border: 1px solid rgb(198, 40, 40);
+}
+
+.dc-textarea-filled-error:hover {
+   color: white;
+   background-color: #c62828;
+   box-shadow: 0 0 0 1px rgba(198, 40, 40, 0.102);
+}
+
+.dc-textarea-filled-error:focus {
+   color: white;
+   background-color: #c62828;
+   box-shadow: 0 0 0 1px rgba(198, 40, 40, 0.102);
+   outline: none;
+}
+
+.dc-textarea-outlined-error {
+   background-color: transparent;
+   border: 1px solid #d32f2f;
+}
+
+.dc-textarea-outlined-error:hover {
+   border: 1px solid #c62828;
+   box-shadow: 0 0 0 1px rgba(198, 40, 40, 0.102);
+}
+
+.dc-textarea-outlined-error:focus {
+   border: 1px solid #c62828;
+   box-shadow: 0 0 0 1px rgba(198, 40, 40, 0.102);
+   outline: none;
+}
+
+.dc-textarea-standard-error {
+   color: #d32f2f;
+   background-color: transparent;
+   border: none;
+}
+
+.dc-textarea-standard-error:hover {
+   color: #c62828;
+   background-color: #fcf3f3;
+   border: none;
+}
+
+.dc-textarea-standard-error:focus {
+   color: #c62828;
+   background-color: #fcf3f3;
+   border: none;
+   outline: none;
+}
+
+.dc-textarea-small {
+   padding: 0.25rem 0.625rem;
+   font-size: 0.813rem;
+}
+
+.dc-textarea-medium {
+   padding: 0.375rem 1rem;
+   font-size: 0.875rem;
+}
+
+.dc-textarea-large {
+   padding: 0.5rem 1.375rem;
+   font-size: 0.938rem;
+}

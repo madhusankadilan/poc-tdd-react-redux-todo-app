@@ -1,8 +1,8 @@
 // import ToDoSideBar from "../containers/home/SideBar";
 // import ToDoContent from "../containers/home/Content";
 
-// import Form from "../components/Form";
-// import Input from "../components/Input";
+import Form from "../components/Form";
+import Input from "../components/Input";
 
 
 
@@ -11,7 +11,7 @@ export default function Home() {
         <main className="home">
             {/* <ToDoSideBar />
             <ToDoContent /> */}
-            {/* <Form layout="inline">
+            <Form layout="inline">
                 <Input label="Label A" />
                 <Input label="Label B" />
                 <Input label="Label C" />
@@ -29,7 +29,7 @@ export default function Home() {
                 <Input label="Label C" />
                 <Input label="Label D" />
             </Form>
-            <Input label="First Name" /> */}
+            <Input label="First Name" />
         </main>
     );
 }
