@@ -1,5 +1,5 @@
 import { ComponentPropsWithoutRef, ReactNode } from "react";
-import { getClassNames } from "../../utils";
+import { getClassNames } from "../_utils";
 import { InputCol, LabelCol, Layout } from "./Form.types";
 import "./styles.css";
 

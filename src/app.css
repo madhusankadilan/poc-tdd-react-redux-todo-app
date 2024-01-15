@@ -1,14 +1,132 @@
 body {
-  margin: 0px;
+   margin: 0px;
+   background-color: cornflowerblue;
 }
 
 #root {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+   min-height: 100vh;
 }
 
-.home {
-  flex: 0 0 50%;
+.home-page {
+   display: flex;
+   flex-direction: column;
+   min-height: 97vh;
+}
+
+.title-wrapper {
+   display: flex;
+   justify-content: center;
+   margin: 1.5rem;
+}
+
+.title {
+   font-size: 2.5rem;
+   font-weight: 600;
+   font-family: "Courier New", Courier, monospace;
+   color: white;
+   text-shadow: 1px 1px 1px black;
+}
+
+.content {
+   display: flex;
+   flex: 1;
+}
+
+.column {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   border: solid 1px white;
+   box-shadow: 0px 0px 5px black;
+   width: calc(100%/3);
+   margin-left: 0.5rem;
+   margin-right: 0.5rem;
+}
+
+.column-title-wrapper {
+   display: flex;
+   align-items: center;
+   margin: 0.5rem;
+}
+
+.column-title {
+   font-size: 1.5rem;
+   font-weight: 600;
+   font-family: "Courier New", Courier, monospace;
+   color: white;
+   text-shadow: 1px 1px 1px black;
+}
+
+.add-button {
+   cursor: pointer;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 90%;
+   height: 3rem;
+   border: dashed 2px black;
+   margin-top: 0.5rem;
+   margin-bottom: 1rem;
+   background-color: white;
+   color: black;
+   font-size: 3rem;
+   font-weight: 600;
+   font-family: "Courier New", Courier, monospace;
+}
+
+.add-button:hover {
+   background-color: rgb(238, 238, 238);
+}
+
+.task-wrapper {
+   margin: 0.5rem 1rem;
+   padding: 0.5rem;
+   background-color: white;
+   box-shadow: 0px 0px 3px black;
+   border-radius: 0.5rem;
+   cursor: grab;
+}
+
+.task-header {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 1.25rem;
+   font-weight: 600;
+   font-family: "Courier New", Courier, monospace;
+   text-shadow: 0.5px 0.5px 0.5px black;
+}
+
+.task-body {
+   margin: 0rem 1rem;
+}
+
+.task-footer {
+   display: flex;
+   flex-direction: row;
+   align-items: end;
+   justify-content: end;
+   margin: 0rem 1rem;
+}
+
+.task-footer.done {
+   justify-content: space-between;
+}
+
+.right-icon-wrapper {
+   display: flex;
+   flex-direction: row;
+}
+
+.edit-icon-inprogress, .edit-icon-todo, .edit-icon-done {
+   margin-right: 0.75rem;
+   cursor: pointer;
+}
+
+.delete-icon-inprogress, .delete-icon-todo, .delete-icon-done {
+   cursor: pointer;
+}
+
+.done-icon-done {
+   cursor: pointer;
 }

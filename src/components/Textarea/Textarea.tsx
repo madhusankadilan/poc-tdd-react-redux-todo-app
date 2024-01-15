@@ -1,5 +1,5 @@
 import { useId } from "react";
-import { getClassNames } from "../../utils";
+import { getClassNames } from "../_utils";
 import { Color, Size, Variant } from "./Textarea.types";
 import "./styles.css";
 

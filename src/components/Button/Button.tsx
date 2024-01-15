@@ -1,5 +1,5 @@
 import { ComponentPropsWithoutRef, ReactNode } from "react";
-import { getClassNames } from "../../utils";
+import { getClassNames } from "../_utils";
 import "./styles.css";
 import { Color, Size, Variant } from "./Button.types";
 
